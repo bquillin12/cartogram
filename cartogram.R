@@ -37,7 +37,6 @@ world.carto <- quick.carto(map_dat, map_dat$pop, blur = 0)
 
 # Plot cartogram ----------------------------------------------------------
 
-my.palette = c("#ff0000", "#ff8000", "#ffff00", "#bfff00","#00ff00") #red, orange, yellow, light green, dar
 my.palette = c("skyblue1", "skyblue4", "royalblue2", "blue1", "blue4")
 plot(world.carto) 
 spplot(world.carto, 'pop', col.regions = my.palette, cuts = length(my.palette)-1,main="World Population")
