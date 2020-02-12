@@ -10,7 +10,7 @@ setwd()
 
 # Packages ----------------------------------------------------------------
 
-# install.packages(c("rgdal", "sp", "Rcartogram", "getcartr))
+# install.packages(c("rgdal", "sp", "Rcartogram", "getcartr"))
 library(rgdal)
 library(sp) 
 library(Rcartogram)
