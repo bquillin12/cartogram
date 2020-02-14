@@ -15,7 +15,6 @@ library(rgdal)
 library(sp) 
 library(Rcartogram)
 library(getcartr)
-library(ggplot2)
 
 # Read data ---------------------------------------------------------------
 
